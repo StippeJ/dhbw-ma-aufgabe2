@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aufgabe 1</string>
+    <string name="text_heading">Hallo</string>
+    <string name="text_short">Erste Zeile</string>
+    <string name="text_middle">Zweite Zeile (länger)</string>
+    <string name="text_long">Dritte Zeile (noch länger)</string>
+    <string name="text_matching_height">Höhe orientiert sich an den drei Zeilen rechts</string>
+    <string name="text_paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</string>
+    <string name="image_description">Eine Bild, das eine Landschaft mit Bergen und einem See zeigt.</string>
+    <string name="button_left">Name löschen</string>
+    <string name="button_right">Name eingeben</string>
+    <string name="text_hint">Gib deinen Namen ein</string>
+    <string name="button_save">Speichern</string>
+    <string name="text_user">Nutzer</string>
+</resources>

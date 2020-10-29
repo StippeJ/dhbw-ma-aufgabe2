@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Stippe Jan Aufgabe 2</string>
+    <string name="app_name">Assignment 2</string>
+    <string name="text_heading">Hello</string>
+    <string name="text_short">Short line</string>
+    <string name="text_middle">Second line (longer)</string>
+    <string name="text_long">Third line (even longer)</string>
+    <string name="text_matching_height">Height is based on the three lines on the right</string>
+    <string name="text_paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</string>
+    <string name="image_description">A picture that shows a landscape including mountains and a lake.</string>
+    <string name="button_left">Reset name</string>
+    <string name="button_right">Enter name</string>
+    <string name="text_hint">Enter your name</string>
+    <string name="button_save">Save</string>
+    <string name="text_user">User</string>
 </resources>
