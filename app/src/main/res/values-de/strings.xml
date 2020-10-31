@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aufgabe 1</string>
-    <string name="text_heading">Hallo</string>
-    <string name="text_short">Erste Zeile</string>
-    <string name="text_middle">Zweite Zeile (länger)</string>
-    <string name="text_long">Dritte Zeile (noch länger)</string>
-    <string name="text_matching_height">Höhe orientiert sich an den drei Zeilen rechts</string>
-    <string name="text_paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</string>
-    <string name="image_description">Eine Bild, das eine Landschaft mit Bergen und einem See zeigt.</string>
-    <string name="button_left">Name löschen</string>
-    <string name="button_right">Name eingeben</string>
-    <string name="text_hint">Gib deinen Namen ein</string>
-    <string name="button_save">Speichern</string>
-    <string name="text_user">Nutzer</string>
+    <string name="app_name">Aufgabe 2</string>
+    <string name="image_description">Bild, das eine Landschaft mit Bergen und einem See zeigt.</string>
+    <string name="animal_description">Bild, das ein Tier zeigt.</string>
+    <string name="button_left">Neues Tier erzeugen</string>
+    <string name="button_right">Zu Seite 2</string>
+    <string name="button_bottom">Email senden</string>
+    <string name="second_activity">Zweite Activity</string>
+    <string name="rabbit">Hase</string>
+    <string name="deer">Reh</string>
+    <string name="fox">Fuchs</string>
+    <string name="eagle">Adler</string>
+    <string name="wolf">Wolf</string>
+    <string name="male">männlich</string>
+    <string name="female">weiblich</string>
+    <string name="sentence1_part1">Ein</string>
+    <string name="sentence1_part2">lebt jetzt im Wald.</string>
+    <string name="sentence2_part1">Das Tier ist</string>
+    <string name="sentence2_part2">und</string>
+    <string name="sentence2_part3">Jahre alt.</string>
+    <string name="email_content">Ich hoffe Ihnen gefällt die App :)</string>
 </resources>

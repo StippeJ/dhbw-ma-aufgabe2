@@ -1,10 +1,23 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.StippeJanAufgabe2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.StippeJanAufgabe2" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="backgroundColor">#FFFFFF</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="EmailButtonStyle" parent="ButtonStyle">
+        <item name="textAllCaps">true</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
     </style>
 </resources>

@@ -13,35 +13,29 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/textView_heading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:layout_marginTop="16dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1.5:1"
+            app:layout_constraintWidth_percent="0.7"
+            app:layout_constraintHeight_max="500dp"
+            android:layout_marginTop="32dp"
             android:contentDescription="@string/image_description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_heading"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/nature_image" />
 
         <Button
-            android:id="@+id/button_left"
+            android:id="@+id/animal_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:text="@string/button_left"
+            style="@style/ButtonStyle"
             app:layout_constraintEnd_toStartOf="@+id/button_right"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,71 +48,21 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="@string/button_right"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button_left"
+            style="@style/ButtonStyle"
+            app:layout_constraintBaseline_toBaselineOf="@+id/animal_button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button_left" />
+            app:layout_constraintStart_toEndOf="@+id/animal_button" />
 
-        <TextView
-            android:id="@+id/textView_long"
+        <Button
+            android:id="@+id/email_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/text_long"
-            app:layout_constraintEnd_toEndOf="@+id/button_right"
-            app:layout_constraintTop_toBottomOf="@+id/textView_middle" />
-
-        <TextView
-            android:id="@+id/textView_middle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/text_middle"
-            app:layout_constraintEnd_toEndOf="@+id/button_right"
-            app:layout_constraintTop_toBottomOf="@+id/textView_short" />
-
-        <TextView
-            android:id="@+id/textView_short"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/text_short"
-            app:layout_constraintEnd_toEndOf="@+id/button_right"
+            android:layout_margin="16dp"
+            android:text="@string/button_bottom"
+            style="@style/EmailButtonStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button_right" />
-
-        <TextView
-            android:id="@+id/textView_matching_height"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginEnd="64dp"
-            android:layout_marginRight="64dp"
-            android:gravity="start|center_vertical"
-            android:text="@string/text_matching_height"
-            app:layout_constraintBottom_toBottomOf="@+id/textView_long"
-            app:layout_constraintEnd_toStartOf="@+id/textView_long"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView_short" />
-
-        <TextView
-            android:id="@+id/textView_paragraph"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:gravity="center_horizontal"
-            android:text="@string/text_paragraph"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_long" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
